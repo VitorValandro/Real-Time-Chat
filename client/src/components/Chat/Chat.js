@@ -18,6 +18,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
   const ENDPOINT = 'https://react-node-realtime-chat.herokuapp.com/'; // endpoint of the server -- uses localhost:5000 for forks
+  //const ENDPOINT = 'localhost:5000';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
