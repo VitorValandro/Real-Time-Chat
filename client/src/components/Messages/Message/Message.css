@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   font-family: Helvetica;
-  color: #828282;
+  color: #a66ead;
   letter-spacing: 0.3px;
 }
 
@@ -51,17 +51,17 @@
 }
 
 .colorWhite {
-  color: white;
+  color:#eac8f9;
 }
 
 .colorDark {
-  color: #353535;
+  color: #652d92;
 }
 
 .backgroundBlue {
-  background: #2979FF;
+  background: #652d92;
 }
 
 .backgroundLight {
-  background: #F3F3F3;
+  background: #cf9fe5;
 }

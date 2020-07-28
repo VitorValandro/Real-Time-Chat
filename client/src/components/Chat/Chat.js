@@ -6,6 +6,7 @@ import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
+import { BsArrowRight } from 'react-icons/bs';
 
 import './Chat.css';
 
@@ -55,6 +56,9 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
+      <a className="gitAnchor" href="https://github.com/VitorValandro/Real-Time-Chat" target="_blank">
+        Github &nbsp;<BsArrowRight size={22} />
+      </a>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />

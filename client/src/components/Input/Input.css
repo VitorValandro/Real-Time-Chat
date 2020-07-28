@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html, body, *{
+   font-family: 'Lato', sans-serif;
+}
 .form {
   display: flex;
-  border-top: 2px solid #D3D3D3;
 }
 
 .input {
@@ -9,6 +12,9 @@
   padding: 5%;
   width: 80%;
   font-size: 1.2em;
+  background-color: #cf9fe5;
+  border-top: 2px solid #cf9fe5;
+  color:#652d92;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -16,12 +22,13 @@ input:focus, textarea:focus, select:focus{
 }
 
 .sendButton {
-  color: #fff !important;
-  text-transform: uppercase;
+  color:#eac8f9 !important;
   text-decoration: none;
-  background: #2979FF;
+  background: #652d92;
   padding: 20px;
   display: inline-block;
   border: none;
   width: 20%;
+  cursor:pointer;
+  text-align: center;
 }

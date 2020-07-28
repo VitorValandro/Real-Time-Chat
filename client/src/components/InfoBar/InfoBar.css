@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html, body, *{
+   font-family: 'Lato', sans-serif;
+}
 .infoBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2979FF;
+  background: #652d92;
   border-radius: 4px 4px 0 0;
   height: 60px;
   width: 100%;
@@ -13,7 +17,7 @@
   display: flex;
   align-items: center;
   margin-left: 5%;
-  color: white;
+  color:#eac8f9;
 }
 
 .rightInnerContainer {
